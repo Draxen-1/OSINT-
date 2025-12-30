@@ -1,11 +1,13 @@
 import socket
 
-class Module:
-    name = "Domain OSINT"
+name = "domain"
 
-    async def run(self, domain):
-        try:
-            ip = socket.gethostbyname(domain)
-            return {"ip": ip}
-        except:
-            return "Domain not resolvable"
+async def run(target):
+    print(f"[DOMAIN] Analyse du domaine : {target}")
+
+    try:
+        ip = socket.gethostbyname(target)
+        return {"ip": ip}
+    except Exception:
+        return "Domain not resolvable"
+

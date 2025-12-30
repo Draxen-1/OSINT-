@@ -1,23 +1,19 @@
+import os
 import json
-from datetime import datetime
 
-LOG_FILE = "output/results.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(BASE_DIR, "..", "output")
+LOG_FILE = os.path.join(OUTPUT_DIR, "results.json")
 
-def log_result(module, target, data):
-    entry = {
-        "time": str(datetime.utcnow()),
+def log_result(module, target, result):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    data = {
         "module": module,
         "target": target,
-        "result": data
+        "result": result
     }
 
-    try:
-        with open(LOG_FILE, "r") as f:
-            logs = json.load(f)
-    except:
-        logs = []
+    with open(LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
-    logs.append(entry)
-
-    with open(LOG_FILE, "w") as f:
-        json.dump(logs, f, indent=4)
