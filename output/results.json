@@ -1,7 +1,5 @@
 {
   "module": "domain",
-  "target": "example.com",
-  "result": {
-    "ip": "104.18.27.120"
-  }
+  "target": "SkyPlug",
+  "result": "Domain not resolvable"
 }
