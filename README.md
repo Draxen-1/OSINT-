@@ -40,6 +40,6 @@ Objectif : **efficacité maximale, zéro bullshit**.
 git clone https://github.com/Draxen-1/OSINT-.git
 cd OSINT-
 pip install -r requirements.txt
-pytyon3 core.main.py -t SkyPlug -m username
+python3 core.main.py -t SkyPlug -m username
 
 ex:A la place de SkyPkug tu mets la cible en question.
