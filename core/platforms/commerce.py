@@ -1,0 +1,22 @@
+PLATFORMS = {
+    "Amazon": "https://www.amazon.com/gp/profile/{}",
+    "eBay": "https://www.ebay.com/usr/{}",
+    "AliExpress": "https://www.aliexpress.com/store/{}",
+    "Etsy": "https://www.etsy.com/people/{}",
+    "Fiverr": "https://www.fiverr.com/{}",
+    "Upwork": "https://www.upwork.com/freelancers/{}",
+    "Freelancer": "https://www.freelancer.com/u/{}",
+    "Shutterstock": "https://www.shutterstock.com/g/{}",
+    "AdobeStock": "https://stock.adobe.com/contributor/{}",
+    "ThemeForest": "https://themeforest.net/user/{}",
+    "Envato": "https://envato.com/market/user/{}",
+    "CreativeMarket": "https://creativemarket.com/{}",
+    "Patreon": "https://www.patreon.com/{}",
+    "KoFi": "https://ko-fi.com/{}",
+    "BuyMeACoffee": "https://www.buymeacoffee.com/{}",
+    "Gumroad": "https://gumroad.com/{}",
+    "SellNow": "https://sellnow.io/{}",
+    "Depop": "https://www.depop.com/{}",
+    "Mercari": "https://www.mercari.com/u/{}",
+    "OfferUp": "https://offerup.com/p/{}/"
+}

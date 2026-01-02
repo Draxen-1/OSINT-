@@ -1,0 +1,22 @@
+PLATFORMS = {
+    "YouTube": "https://www.youtube.com/@{}",
+    "TwitchAlt": "https://www.twitch.tv/{}",
+    "KickAlt": "https://kick.com/{}",
+    "Vimeo": "https://vimeo.com/{}",
+    "Dailymotion": "https://www.dailymotion.com/{}",
+    "SoundCloudAlt": "https://soundcloud.com/{}",
+    "Mixcloud": "https://www.mixcloud.com/{}",
+    "Spotify": "https://open.spotify.com/user/{}",
+    "AppleMusic": "https://music.apple.com/profile/{}",
+    "Deezer": "https://www.deezer.com/profile/{}",
+    "Audiomack": "https://audiomack.com/{}",
+    "Anchor": "https://anchor.fm/{}",
+    "Podbean": "https://www.podbean.com/site/user/{}",
+    "Castbox": "https://castbox.fm/creator/{}",
+    "Rumble": "https://rumble.com/c/{}",
+    "Odysee": "https://odysee.com/@{}",
+    "BitChute": "https://www.bitchute.com/channel/{}",
+    "Trovo": "https://trovo.live/{}",
+    "Caffeine": "https://www.caffeine.tv/{}",
+    "FacebookWatch": "https://www.facebook.com/{}"
+}

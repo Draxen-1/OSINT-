@@ -1,0 +1,22 @@
+PLATFORMS = {
+    "BitcoinTalk": "https://bitcointalk.org/index.php?action=profile;u={}",
+    "Gitcoin": "https://gitcoin.co/{}",
+    "OpenSea": "https://opensea.io/{}",
+    "Rarible": "https://rarible.com/{}",
+    "Foundation": "https://foundation.app/@{}",
+    "Binance": "https://www.binance.com/en/user/{}",
+    "Coinbase": "https://www.coinbase.com/{}",
+    "Kraken": "https://www.kraken.com/u/{}",
+    "KuCoin": "https://www.kucoin.com/ucenter/{}",
+    "CryptoCom": "https://crypto.com/price/{}",
+    "Bitstamp": "https://www.bitstamp.net/account/{}",
+    "LocalBitcoins": "https://localbitcoins.com/accounts/profile/{}",
+    "NiceHash": "https://www.nicehash.com/my/profile/{}",
+    "Hive": "https://hive.blog/@{}",
+    "Steemit": "https://steemit.com/@{}",
+    "Mirror": "https://mirror.xyz/{}",
+    "Lens": "https://lenster.xyz/u/{}",
+    "Zora": "https://zora.co/{}",
+    "Etherscan": "https://etherscan.io/address/{}",
+    "Solscan": "https://solscan.io/account/{}"
+}

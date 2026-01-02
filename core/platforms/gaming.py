@@ -1,19 +1,40 @@
 PLATFORMS = {
-    "Steam": {
-        "url": "https://steamcommunity.com/id/{}",
-        "error": "The specified profile could not be found"
-    },
-    "EpicGames": {
-        "url": "https://store.epicgames.com/u/{}",
-        "error": "Page not found"
-    },
-    "PlayStation": {
-        "url": "https://psnprofiles.com/{}",
-        "error": "404"
-    },
-    "Xbox": {
-        "url": "https://xboxgamertag.com/search/{}",
-        "error": "No users found"
-    }
+    "Steam": "https://steamcommunity.com/id/{}",
+    "SteamAlt": "https://steamcommunity.com/profiles/{}",
+    "EpicGames": "https://www.epicgames.com/id/{}",
+    "Xbox": "https://account.xbox.com/en-us/profile?gamertag={}",
+    "PlayStation": "https://my.playstation.com/profile/{}",
+    "BattleNet": "https://battle.net/account/management/{}",
+    "Origin": "https://www.origin.com/profile/{}",
+    "Uplay": "https://ubisoftconnect.com/en-US/profile/{}",
+    "Roblox": "https://www.roblox.com/users/{}/profile",
+    "Minecraft": "https://namemc.com/profile/{}",
+    "Twitch": "https://www.twitch.tv/{}",
+    "YouTubeGaming": "https://www.youtube.com/@{}",
+    "Kick": "https://kick.com/{}",
+    "Faceit": "https://www.faceit.com/en/players/{}",
+    "ESEA": "https://play.esea.net/users/{}",
+    "Speedrun": "https://www.speedrun.com/user/{}",
+    "ChessCom": "https://www.chess.com/member/{}",
+    "Lichess": "https://lichess.org/@/{}",
+    "PokemonGo": "https://pokemongo.com/trainer/{}",
+    "ClashOfStats": "https://www.clashofstats.com/players/{}",
+    "FortniteTracker": "https://fortnitetracker.com/profile/all/{}",
+    "PUBGTracker": "https://pubgtracker.com/profile/pc/{}",
+    "TrackerGG": "https://tracker.gg/valorant/profile/riot/{}",
+    "OPGG": "https://www.op.gg/summoners/na/{}",
+    "RiotGames": "https://riotgames.com/{}",
+    "NexusMods": "https://www.nexusmods.com/users/{}",
+    "ModDB": "https://www.moddb.com/members/{}",
+    "CurseForge": "https://www.curseforge.com/members/{}",
+    "GameJolt": "https://gamejolt.com/@{}",
+    "ItchIO": "https://{}.itch.io",
+    "Newgrounds": "https://{}.newgrounds.com",
+    "Kongregate": "https://www.kongregate.com/accounts/{}",
+    "ArmorGames": "https://armorgames.com/user/{}",
+    "Miniclip": "https://www.miniclip.com/profile/{}",
+    "Osu": "https://osu.ppy.sh/users/{}",
+    "VRChat": "https://vrchat.com/home/user/{}",
+    "SecondLife": "https://secondlife.com/profile/{}"
 }
 

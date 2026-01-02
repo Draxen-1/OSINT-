@@ -1,0 +1,22 @@
+PLATFORMS = {
+    "Wikipedia": "https://en.wikipedia.org/wiki/User:{}",
+    "AboutMe": "https://about.me/{}",
+    "Keybase": "https://keybase.io/{}",
+    "PastebinAlt": "https://pastebin.com/u/{}",
+    "ArchiveOrg": "https://archive.org/details/@{}",
+    "ImgurAlt": "https://imgur.com/user/{}",
+    "GravatarAlt": "https://en.gravatar.com/{}",
+    "Slack": "https://{}.slack.com",
+    "Trello": "https://trello.com/{}",
+    "Notion": "https://www.notion.so/{}",
+    "Canva": "https://www.canva.com/{}",
+    "Figma": "https://www.figma.com/@{}",
+    "Unsplash": "https://unsplash.com/@{}",
+    "Pexels": "https://www.pexels.com/@{}",
+    "500px": "https://500px.com/{}",
+    "ProductHunt": "https://www.producthunt.com/@{}",
+    "AngelList": "https://angel.co/u/{}",
+    "Crunchbase": "https://www.crunchbase.com/person/{}",
+    "SlideShare": "https://www.slideshare.net/{}",
+    "Issuu": "https://issuu.com/{}"
+}

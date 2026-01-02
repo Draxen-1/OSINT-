@@ -1,22 +1,45 @@
 PLATFORMS = {
-    "GitHub": {
-        "url": "https://github.com/{}",
-        "error": "Not Found"
-    },
-    "GitLab": {
-        "url": "https://gitlab.com/{}",
-        "error": "404"
-    },
-    "Bitbucket": {
-        "url": "https://bitbucket.org/{}",
-        "error": "Page not found"
-    },
-    "DockerHub": {
-        "url": "https://hub.docker.com/u/{}",
-        "error": "404"
-    },
-    "PyPI": {
-        "url": "https://pypi.org/user/{}/",
-        "error": "Not Found"
-    }
+    "GitHub": "https://github.com/{}",
+    "GitLab": "https://gitlab.com/{}",
+    "Bitbucket": "https://bitbucket.org/{}",
+    "SourceForge": "https://sourceforge.net/u/{}/profile",
+    "Launchpad": "https://launchpad.net/~{}",
+    "StackOverflow": "https://stackoverflow.com/users/{}",
+    "StackExchange": "https://stackexchange.com/users/{}",
+    "HackerRank": "https://www.hackerrank.com/{}",
+    "HackerEarth": "https://www.hackerearth.com/@{}",
+    "Codeforces": "https://codeforces.com/profile/{}",
+    "Codewars": "https://www.codewars.com/users/{}",
+    "LeetCode": "https://leetcode.com/{}",
+    "Replit": "https://replit.com/@{}",
+    "Glitch": "https://glitch.com/@{}",
+    "JSFiddle": "https://jsfiddle.net/user/{}",
+    "Kaggle": "https://www.kaggle.com/{}",
+    "DockerHub": "https://hub.docker.com/u/{}",
+    "NPM": "https://www.npmjs.com/~{}",
+    "PyPI": "https://pypi.org/user/{}",
+    "RubyGems": "https://rubygems.org/profiles/{}",
+    "CPAN": "https://metacpan.org/author/{}",
+    "OpenHub": "https://www.openhub.net/accounts/{}",
+    "ReadTheDocs": "https://readthedocs.org/profiles/{}",
+    "FreeCodeCamp": "https://www.freecodecamp.org/{}",
+    "TopCoder": "https://www.topcoder.com/members/{}",
+    "CodinGame": "https://www.codingame.com/profile/{}",
+    "Exercism": "https://exercism.org/profiles/{}",
+    "DevTo": "https://dev.to/{}",
+    "Hashnode": "https://hashnode.com/@{}",
+    "MediumDev": "https://medium.com/@{}",
+    "Pastebin": "https://pastebin.com/u/{}",
+    "Codepen": "https://codepen.io/{}",
+    "Gist": "https://gist.github.com/{}",
+    "BitbucketSnippets": "https://bitbucket.org/snippets/{}",
+    "OSDN": "https://osdn.net/users/{}",
+    "LaunchpadCode": "https://code.launchpad.net/~{}",
+    "OpenCollective": "https://opencollective.com/{}",
+    "Bugcrowd": "https://bugcrowd.com/{}",
+    "HackerOne": "https://hackerone.com/{}",
+    "CTFtime": "https://ctftime.org/team/{}",
+    "TryHackMe": "https://tryhackme.com/p/{}",
+    "HackTheBox": "https://app.hackthebox.com/profile/{}"
 }
+

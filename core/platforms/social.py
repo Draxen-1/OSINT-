@@ -1,38 +1,50 @@
 PLATFORMS = {
-    "Twitter": {
-        "url": "https://twitter.com/{}",
-        "error": "This account doesn’t exist"
-    },
-    "Instagram": {
-        "url": "https://www.instagram.com/{}",
-        "error": "Sorry, this page isn't available"
-    },
-    "Facebook": {
-        "url": "https://www.facebook.com/{}",
-        "error": "content not found"
-    },
-    "TikTok": {
-        "url": "https://www.tiktok.com/@{}",
-        "error": "Couldn't find this account"
-    },
-    "Snapchat": {
-        "url": "https://www.snapchat.com/add/{}",
-        "error": "Sorry, this page isn't available"
-    },
-    "Pinterest": {
-        "url": "https://www.pinterest.com/{}/",
-        "error": "Page not found"
-    },
-    "Reddit": {
-        "url": "https://www.reddit.com/user/{}/",
-        "error": "page not found"
-    },
-    "YouTube": {
-        "url": "https://www.youtube.com/@{}",
-        "error": "Not Found"
-    },
-    "Twitch": {
-        "url": "https://www.twitch.tv/{}",
-        "error": "Sorry. Unless you’ve got a time machine"
-    }
+    "Instagram": "https://www.instagram.com/{}",
+    "Facebook": "https://www.facebook.com/{}",
+    "Twitter": "https://twitter.com/{}",
+    "TikTok": "https://www.tiktok.com/@{}",
+    "Snapchat": "https://www.snapchat.com/add/{}",
+    "Reddit": "https://www.reddit.com/user/{}",
+    "Pinterest": "https://www.pinterest.com/{}",
+    "Tumblr": "https://{}.tumblr.com",
+    "VK": "https://vk.com/{}",
+    "OK": "https://ok.ru/{}",
+    "Weibo": "https://weibo.com/{}",
+    "Quora": "https://www.quora.com/profile/{}",
+    "Medium": "https://medium.com/@{}",
+    "Badoo": "https://badoo.com/profile/{}",
+    "Meetup": "https://www.meetup.com/members/{}",
+    "Discord": "https://discord.com/users/{}",
+    "Telegram": "https://t.me/{}",
+    "Line": "https://line.me/R/ti/p/~{}",
+    "Kakao": "https://story.kakao.com/{}",
+    "Gab": "https://gab.com/{}",
+    "TruthSocial": "https://truthsocial.com/@{}",
+    "Mastodon": "https://mastodon.social/@{}",
+    "Myspace": "https://myspace.com/{}",
+    "Nextdoor": "https://nextdoor.com/profile/{}",
+    "Plurk": "https://www.plurk.com/{}",
+    "Ello": "https://ello.co/{}",
+    "Vero": "https://vero.co/{}",
+    "Cohost": "https://cohost.org/{}",
+    "Flickr": "https://www.flickr.com/people/{}",
+    "About.me": "https://about.me/{}",
+    "Gravatar": "https://en.gravatar.com/{}",
+    "Behance": "https://www.behance.net/{}",
+    "Dribbble": "https://dribbble.com/{}",
+    "Mix": "https://mix.com/{}",
+    "LiveJournal": "https://{}.livejournal.com",
+    "Xing": "https://www.xing.com/profile/{}",
+    "Goodreads": "https://www.goodreads.com/{}",
+    "LastFM": "https://www.last.fm/user/{}",
+    "SoundCloud": "https://soundcloud.com/{}",
+    "ReverbNation": "https://www.reverbnation.com/{}",
+    "Bandcamp": "https://bandcamp.com/{}",
+    "Imgur": "https://imgur.com/user/{}",
+    "DeviantArt": "https://www.deviantart.com/{}",
+    "Pixiv": "https://www.pixiv.net/en/users/{}",
+    "FanFiction": "https://www.fanfiction.net/u/{}",
+    "ArchiveOfOurOwn": "https://archiveofourown.org/users/{}",
+    "Foursquare": "https://foursquare.com/{}"
 }
+
